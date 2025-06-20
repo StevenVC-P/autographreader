@@ -162,3 +162,8 @@ api_keys.json
 
 # Commands file (if it contains sensitive info)
 Commands
+
+# Local tracking documents (AI agent context)
+PROJECT_STATUS.md
+PROGRESS_LOG.md
+AI_CONTEXT.md
