@@ -1,11 +1,17 @@
 # Autograph Reader Project .gitignore
 
-# Data directories
+# Database files (but keep directory structure)
+database/*
+!database/.gitkeep
+
+# Configuration files (but keep directory structure)
+config/*
+!config/.gitkeep
+
+# Data directories (but keep directory structure)
 data/
-database/
-config/
-yolo_dataset/
 qa_review/
+yolo_dataset/
 runs/
 
 # Model files
@@ -135,6 +141,8 @@ checkpoints/
 weights/
 models/
 results/
+experiments/
+training_logs/
 
 # Configuration files with sensitive data
 secrets.json
