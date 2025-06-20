@@ -1,0 +1,10 @@
+run - labeling;
+run - yolo;
+run - qacheck;
+run - count;
+
+run - scrape;
+run - wikidata;
+
+run - unseen;
+run - valsample;
